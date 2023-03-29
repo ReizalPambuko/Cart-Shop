@@ -15,7 +15,7 @@ const Header = () => {
           <Link to="/">Electronic Shop</Link>
         </h1>
         <ul
-          className={`flex max-sm:absolute max-sm:right-0 max-sm:bg-gray-900 max-sm:flex-col max-sm:text-center transition-all max-sm:p-10 max-sm:rounded-md max-sm:z-0 ${
+          className={`flex font-semibold max-sm:absolute max-sm:right-0 max-sm:bg-gray-900 max-sm:flex-col max-sm:text-center transition-all max-sm:p-10 max-sm:rounded-md max-sm:z-0 ${
             navs ? "max-sm:top-[4rem]" : "max-sm:top-[-400px]"
           }`}
         >
